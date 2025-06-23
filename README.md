@@ -1,4 +1,4 @@
-**A chatbot that runs locally on llama3 named JOKSHUMADHINI.** \n
+**A chatbot that runs locally on llama3 named JOKSHUMADHINI.**  
 Why Jokshumadhini? ---- A random set of alphabets that popped up in my mind!
 
 **Prerequisites**
