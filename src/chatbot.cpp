@@ -20,18 +20,18 @@ void Chatbot::start(){
         std::getline(std::cin, userInput);
 
         if (userInput == "/exit"){
-            std::cout << "Bye....\n";
+            std::cout << "Jokshumadhini: Bye....\n";
             break;
         }
         else if (userInput == "/save"){
             store.save(convo.getHistory());
-            std::cout << "Conversation saved....";
+            std::cout << "Jokshumadhini: Conversation saved....\n";
             continue;
         }
 
         convo.addMessage("user", userInput);
         std::string aiResponse = cli.interact(convo.getHistory());
         convo.addMessage("assistant", aiResponse);
-        std::cout << "\nJokshumadhini: " << aiResponse;
+        std::cout << "\nJokshumadhini: " << aiResponse << "\n";
     }
 }
